@@ -35,7 +35,7 @@ describe('Hype Machine', function() {
 });
 
 
-describe.skip('¿Are You Bad Bunny?', function() {
+describe('¿Are You Bad Bunny?', function() {
 
   it('is Bad Bunny', function() {
     assert.strictEqual(eresBadBunny('Bad Bunny'), true);
@@ -52,7 +52,7 @@ describe.skip('¿Are You Bad Bunny?', function() {
 });
 
 
-describe.skip('¿Are You Bad Bunny? - Bonus (Case Insensitive)', function() {
+describe('¿Are You Bad Bunny? - Bonus (Case Insensitive)', function() {
 
   it('is BAD BUNNY', function() {
     assert.strictEqual(eresBadBunny('BAD BUNNY'), true);
@@ -61,7 +61,7 @@ describe.skip('¿Are You Bad Bunny? - Bonus (Case Insensitive)', function() {
 });
 
 
-describe.skip('Lil Rapper', function() {
+describe('Lil Rapper', function() {
 
   it('is Lil (Lil Wayne)', function() {
     assert.strictEqual(areYouLil('Lil Wayne'), true);
@@ -86,7 +86,7 @@ describe.skip('Lil Rapper', function() {
 });
 
 
-describe.skip('Most YouTube Views - Part 1', function() {
+describe('Most YouTube Views - Part 1', function() {
 
   it('returns the most views - 555000', function() {
     assert.strictEqual(mostViewsThreeVideos(100, 555000, 2222), 555000);
@@ -103,7 +103,7 @@ describe.skip('Most YouTube Views - Part 1', function() {
 });
 
 
-describe.skip('Most YouTube Views - Part 2', function() {
+describe('Most YouTube Views - Part 2', function() {
 
   it('returns the most views - 555000', function() {
     assert.strictEqual(mostViews([100, 555000, 2222]), 555000);
@@ -120,7 +120,7 @@ describe.skip('Most YouTube Views - Part 2', function() {
 });
 
 
-describe.skip('Validate Email - Part 1', function() {
+describe('Validate Email - Part 1', function() {
   it('recognizes a valid email', function() {
     assert.strictEqual(validateEmail('notoriousbig@badboy.com').toLowerCase(), 'valid email');
   });

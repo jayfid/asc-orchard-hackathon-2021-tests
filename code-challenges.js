@@ -3,26 +3,32 @@ const { SPANISH_TO_ENGLISH, TRACK_LIST } = require('./constants.js')
 
 const newSingle = (single) => {
   // insert code
+  return `New single ${single} is dropping soon!`;
 };
 
 const eresBadBunny = (name) => {
   // insert code
+  return name.toLowerCase() === 'bad bunny';
 };
 
 const areYouLil = (name) => {
   // insert code
+  return name.toLowerCase().substring(0, 4) === 'lil ';
 };
 
 const mostViewsThreeVideos = (videoOneViews, videoTwoViews, videoThreeViews) => {
   // insert code
+  return Math.max(videoOneViews, videoTwoViews, videoThreeViews);
 };
 
 const mostViews = (videoViews) => {
   // insert code
+  return Math.max(...videoViews);
 };
 
 const validateEmail = (email) => {
   // insert code
+  return /\S{1,}@\S+\.\S+/.test(email) ?  'valid email' : 'invalid email';
 };
 
 const validateEmailWithMessage = (email) => {
